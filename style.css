@@ -1,0 +1,66 @@
+/* Body and Heading Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Animal Bar Styles */
+#animal-bar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#animal-bar span {
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Animal Details Styles */
+#animal-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+}
+
+/* Voting Form Styles */
+#input-votes {
+    margin-top: 10px;
+}
+
+#votes {
+    width: 100px;
+    padding: 5px;
+}
+
+#cast-votes {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#cast-votes:hover {
+    background-color: #555;
+}
+
