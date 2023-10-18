@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 function getAnimals() {
-    fetch("http://localhost:3000/characters", {
+    fetch("https://my-json-server.typicode.com/philipmuhoro/Phase-1-SA-03-Code-Challenge-Flatacuties/characters", {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
